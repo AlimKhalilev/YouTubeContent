@@ -1,0 +1,68 @@
+@import "./lib/normalize";
+@import "./lib/colors";
+@import "./lib/grid";
+@import "./lib/fonts";
+@import "./lib/mixins";
+
+@import "./components/btn";
+@import "./components/card";
+
+@import "./components";
+
+.rate {
+
+    // .rate__container
+
+    &__container {
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+
+    // .rate__header
+
+    &__header {
+        margin-bottom: 70px;
+    }
+
+    // .rate__title
+
+    &__title {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 1.25;
+        color: var(--regular-black);
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    // .rate__subtitle
+
+    &__subtitle {
+        font-size: 20px;
+        line-height: 1.5;
+        color: var(--accent-black);
+
+        max-width: 720px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    // .rate__accentText
+
+    &__accentText {
+        font-weight: 600px;
+    }
+
+    // .rate__cards
+
+    &__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+    }
+
+    // .rate__card
+
+    &__card {
+    }
+}
